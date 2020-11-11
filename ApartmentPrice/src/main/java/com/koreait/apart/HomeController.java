@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 	
 	@Autowired
-	HomeMapper mapper;
+	private HomeMapper mapper;
 
 	@RequestMapping
 	public String home(Locale locale, Model model) {
