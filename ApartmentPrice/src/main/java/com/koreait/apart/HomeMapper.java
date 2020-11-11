@@ -7,4 +7,5 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface HomeMapper {
 	List<LocationCodeVO> selLocationCodeList();
+	List<ApartInfoVO> selApartmentInfoList(SearchPARAM param);
 }

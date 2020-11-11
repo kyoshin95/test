@@ -4,4 +4,7 @@
 	<select id="selLocationCodeList" resultType="LocationCodeVO">
 		SELECT * FROM location_code
 	</select>
+	<select id="selApartmentInfoList" parameterType="SearchPARAM" resultType="ApartInfoVO">
+		SELECT * FROM apartment_info
+	</select>
 </mapper>
